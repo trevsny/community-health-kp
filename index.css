@@ -15,6 +15,12 @@
     background-color: #003B71;
 }
 
+.green-divider {
+    height: 20px;
+    background-color: #57A635;
+    width: 100%;
+}
+
 .header-div {
     padding-bottom: 30px;
 }
@@ -22,6 +28,17 @@
 .header-text {
     font-size: 8vw;
     margin: 0;
+}
+
+.intro {
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 2%;
+}
+
+.lead-section {
+    display: flex;
 }
 
 .light-blue {
@@ -78,18 +95,27 @@
         content: " > ";
         float: right;
     }
+
+    .img-mobile {
+        display: none;
+    }
+
     .li-divider {
         display: none;
     }
+
     .li-text { 
         border-top: 1px solid black;
     }
+
     li:nth-last-child(1) {
         border-bottom: 1px solid black;
     }
+
     .subHeader {
         font-size: 1.3rem;
     }
+
    .ul-nav {
     display: block;
    }
