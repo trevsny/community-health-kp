@@ -3,7 +3,13 @@
 /* 768px to 1023px tablet; Bootstrap = md to 992px*/
 /* 1024px above desktop; Bootstrap = lg 992px and up to 1200px for xl*/
 
+.a-li:hover {
+    font-weight: bold;
+}
 
+.a-li {
+    color: black;
+}
 
 .dark-blue {
     background-color: #003B71;
@@ -15,18 +21,45 @@
 
 .header-text {
     font-size: 8vw;
+    margin: 0;
 }
 
 .light-blue {
     background-color: #0078B3;
 }
+
+.li-divider {
+    border-right: 1px solid black;
+    align-self: center;
+    height: 15px;
+}
+
+.li-text {
+    text-decoration: none;
+    font-size: .9rem;
+    font-weight: 900;
+    content: " > "
+}
+
+.nav-div {
+    display: flex;
+}
+
+.nav-mp {
+    margin: 0;
+    padding: 0;
+}
+
 .subHeader {
     font-size: 1.3rem;
 }
 .text-white {
     color: white;
 }
-
+.ul-nav {
+    list-style-type: none;
+    justify-content: center;
+}
 /* Phone */
 @media (min-width: 767px) {
     
@@ -41,8 +74,24 @@
 }
 /* Phone */
 @media (min-width: 0px) and (max-width: 767px) {
-   .subHeader {
-       font-size: 1.3rem;
+    .a-li::after {
+        content: " > ";
+        float: right;
+    }
+    .li-divider {
+        display: none;
+    }
+    .li-text { 
+        border-top: 1px solid black;
+    }
+    li:nth-last-child(1) {
+        border-bottom: 1px solid black;
+    }
+    .subHeader {
+        font-size: 1.3rem;
+    }
+   .ul-nav {
+    display: block;
    }
 }
 /* Tablet */
