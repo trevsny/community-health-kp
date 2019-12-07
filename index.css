@@ -1,0 +1,59 @@
+/* KP breakpoints */
+/* 767px mobile  Bootstrap = xs and sm */
+/* 768px to 1023px tablet; Bootstrap = md to 992px*/
+/* 1024px above desktop; Bootstrap = lg 992px and up to 1200px for xl*/
+
+
+
+.dark-blue {
+    background-color: #003B71;
+}
+
+.header-div {
+    padding-bottom: 30px;
+}
+
+.header-text {
+    font-size: 8vw;
+}
+
+.light-blue {
+    background-color: #0078B3;
+}
+.subHeader {
+    font-size: 1.3rem;
+}
+.text-white {
+    color: white;
+}
+
+/* Phone */
+@media (min-width: 767px) {
+    
+}
+/* Tablet */
+@media (min-width: 768px) {
+
+}
+/* Desktop */
+@media (min-width: 1024px) {
+
+}
+/* Phone */
+@media (min-width: 0px) and (max-width: 767px) {
+   .subHeader {
+       font-size: 1.3rem;
+   }
+}
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .subHeader {
+        font-size: 1.6rem;
+    }
+}
+/* Desktop */
+@media (min-width: 1024px) {
+    .subHeader {
+        font-size: 2rem;
+    }
+}
