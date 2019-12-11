@@ -24,8 +24,6 @@
     padding: 4% 9%;
 }
 
-
-
 .blockquote-text {
     padding: 3%;
     /* font-size: 1.1rem; */
@@ -39,6 +37,17 @@
 
 .disp-mobile {
     display: none;
+}
+
+.exec-img {
+    padding: 5%;
+    text-align: center;
+}
+
+.exec-label {
+    display: block;
+    margin: 0;
+    text-align: center;
 }
 
 .first-col-sm-box {
