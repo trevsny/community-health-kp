@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- <meta http-equiv="X-UA-Compatible" content="ie=edge">  -->
     <title>Cultivating Community Health - Kaiser Permanente</title>
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" />
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- Gotham Font -->
@@ -19,6 +21,7 @@
         <div class="row">
             <div class="col-sm-12 " style="padding-top: 40px">
                 <!-- Kaiser logo here 40px from top of screen; full logo with words on desktop, just logo on mobile and 20px from top-->
+                <!-- font-family: Avenir Next Demi for Kaiser Permanente title -->
             </div>
             <div class="col-sm-12">
                 <!-- Make text em or rem, not px -->
@@ -57,28 +60,22 @@
             </li>
         </ul>
     </nav>
-    <main class="container-fluid">
-        <section class="row">
-            <div class="col-xs-12 col-md-6">
-                <img src="../../../Downloads/Gemma_practice_photo.jpg" />
-            </div>
-            <div class="col-md-6 img-mobile">
-                <img src="../../../Downloads/Gemma_practice_photo.jpg" />
-            </div>
-            <div class=" col-xs-12 -col-md-4">
-                <img src="../../../Downloads/Gemma_practice_photo.jpg" />
-            </div>
-            <div class="col-md-4 img-mobile">
-                <img src="../../../Downloads/Gemma_practice_photo.jpg" />
-            </div>
-            <div class="col-md-4 img-mobile">
-                <img src="../../../Downloads/Gemma_practice_photo.jpg" />
+    <main>
+        <section class="no-gutters row">
+            <div class="col-xs-12 home-img">
+                <img class="mobile-disp-none home-img" src="./images/home/desktop_home_images.png" />
+                <img class="disp-mobile home-img" src="./images/home/Phone_home_image1.png" />
             </div>
         </section>
-        <article class="row intro">
-            <p>Kaiser Permanente exists to provide high-quality, affordable health care and to improve the health of our members and the communities we serve.</p>
-            <p>We believe that good health requires good health care, and more. We recognize that the conditions in our communities have a profound and pervasive impact on the health of the people who live in them. That’s why we are leveraging our assets and collaborating with community partners to help communities thrive beyond health care, to improve housing, food security, economic opportunity, education, and address climate change.</p>
-            <p>This Community Health report is one snapshot of a broad portfolio of initiatives and numerous collaborations to enhance quality of life and community health.</p>
+        <article class="row">
+            <div class="intro">
+                <p>Kaiser Permanente exists to provide high-quality, affordable health care and to improve the health of our members and the communities we serve.</p>
+                <p>We believe that good health requires good health care, and more. We recognize that the conditions in our communities have a profound and pervasive impact on the health of the people who live in them. That’s why we are leveraging our assets and collaborating with community partners to help communities thrive beyond health care, to improve housing, food security, economic opportunity, education, and address climate change.</p>
+                <p>This Community Health report is one snapshot of a broad portfolio of initiatives and numerous collaborations to enhance quality of life and community health.</p>
+            </div>
+            <div class="col-xs-12 disp-mobile home-img">
+                <img class="home-img" src="./images/home/Phone_home_image2.png" />
+            </div>
         </article>
         <div class="row">
             <div class="green-divider"></div>
