@@ -14,22 +14,20 @@
     <!-- My CSS -->
     <link rel="stylesheet" href="./index.css" />
     <!-- <link rel="stylesheet" href="" -->
-    <!-- Custom breakpoints inserted instead of Bootstrap's -->
-    <!-- <link rel="stylesheet" href="./bootstrap-grid.scss" /> -->
 </head>
 <body style="font-family: HCo Gotham;">
     <header id="header" class="container-fluid light-blue header-div " >
         <div class="row">
-            <div class="col-sm-12 " style="padding-top: 40px">
+            <div class="col-12 " style="padding-top: 40px">
                 <!-- Kaiser logo here 40px from top of screen; full logo with words on desktop, just logo on mobile and 20px from top-->
                 <!-- font-family: Avenir Next Demi for Kaiser Permanente title -->
             </div>
-            <div class="col-sm-12">
+            <div class="col-12">
                 <!-- Make text em or rem, not px -->
                 <h1 class="text-white text-sm-left header-text">Cultivating</h1>
                 <h1 class="text-white text-sm-left header-text">Community Health</h1>
             </div>
-            <div class="col-sm-12">
+            <div class="col-12">
                 <h3 class="text-white text-xs-center text-md-left subHeader">IN SOUTHERN CALIFORNIA</h3>
             </div>
         </div>
@@ -63,7 +61,7 @@
     </nav>
     <main>
         <section class="no-gutters row">
-            <div class="col-xs-12 home-img">
+            <div class="col-12 home-img">
                 <img class="mobile-disp-none home-img" src="./images/home/desktop_home_images.png" alt=""/>
                 <img class="disp-mobile home-img" src="./images/home/Phone_home_image1.png" alt="" />
             </div>
@@ -74,38 +72,44 @@
                 <p>We believe that good health requires good health care, and more. We recognize that the conditions in our communities have a profound and pervasive impact on the health of the people who live in them. That’s why we are leveraging our assets and collaborating with community partners to help communities thrive beyond health care, to improve housing, food security, economic opportunity, education, and address climate change.</p>
                 <p>This Community Health report is one snapshot of a broad portfolio of initiatives and numerous collaborations to enhance quality of life and community health.</p>
             </div>
-            <div class="col-xs-12 disp-mobile home-img padding-btm">
-                <img class="home-img" src="./images/home/Phone_home_image2.png" />
+            <div class="col-12 disp-mobile home-img padding-btm">
+                <img class="home-img" src="./images/home/Phone_home_image2.png" alt=""/>
             </div>
         </article>
         <div class="row">
             <div class="green-divider"></div>
         </div>
         <!-- Leadership section -------------------------------------------------------------------->
-        <section id="leadership_message">
-            <aside class="first-col first-col-sm-box "></aside>
-            <aside class="col-xs-12 first-col">
-                <div class="col-xs-1">
-                    <img class="arrow-width" src="./images/home/Desktop-arrow-right.png" alt="">
-                </div>
-                <blockquote class="col-xs-11 marg-btm-text vertical-blockquote" >
-                    <p class="blockquote-text">
-                        We recognize that the conditions in
-                        our communities—social, economic,
-                        environmental, equity, inclusion, justice—
-                        have a profound and pervasive impact on
-                        the health of the people who live, work,
-                        and play in them.
-                    </p>
-                </blockquote>
-            </aside>
-            <article class="mobile-padding second-col second-col-sm-box">
-                <div>
+        <section id="leadership_message" class="container-fluid">
+            <div class="row">
+                <aside class="col-3 first-col first-col-sm-box section-header-ht ">
+                </aside>
+                <div class="col-9 second-column second-col-mobile second-col-section-header section-header-ht">
                     <h1 class="title">LEADERSHIP MESSAGE</h1>
                 </div>
-            </article>
-            <article class="second-col">
-                <div class="article-padding col-xs-12">
+            </div>
+            <div class="row">
+                <aside class="col-3 first-col">
+                    <div class="blockq-div">
+                        <blockquote class="col-11 marg-btm-text vertical-blockquote" >
+                            <p class="blockquote-text">
+                                We recognize that the conditions in
+                                our communities—social, economic,
+                                environmental, equity, inclusion, justice—
+                                have a profound and pervasive impact on
+                                the health of the people who live, work,
+                                and play in them.
+                            </p>
+                        </blockquote>
+                        <div class="arrow-right col-1">
+                            <div class="align-ctr"> 
+                                <img src="./images/home/Desktop-arrow-right.png" alt="" />
+                            </div>
+                        </div>
+                    </div>
+
+                </aside>
+                <article class="article-body col-9 second-column second-col-mobile">
                     <h5 class="marg-btm-text green-text">Kaiser Permanente is committed to Total Health — mind, body, and community.</h5>
                     <p>
                         Going into our 75th year, after decades of innovation and growth, our
@@ -126,10 +130,10 @@
                         resources to meet their health-impacting social, nonmedical needs. 
                     </p>
                     <!-- mobile blockquote here -->
-                    <div class="arrow-mobile">
+                    <div class="arrow-mobile mobile-blockquote">
                         <img class="arrow-width" src="./images/home/Desktop-arrow-up.png" alt="" >
                     </div>
-                    <blockquote class="marg-btm-text sm-full-border" >
+                    <blockquote class="marg-btm-text mobile-blockquote sm-full-border" >
                         <p class="blockquote-text">
                             We recognize that the conditions in
                             our communities—social, economic,
@@ -163,7 +167,12 @@
                         Counseling and Learning Center, is fond of saying, “the best is yet
                         to come.” 
                     </p>
-                    <div class="exec-img col-xs-12">
+                    <div class="col-12 desktop-execs">
+                        <div>
+                            <img id="all_execs" src="./images/leadership/Desktop_Leadership_photos.png" />
+                        </div>
+                    </div>
+                    <div class="exec-img col-12">
                         <div>
                             <img id="exec_md" src="./images/leadership/Phone_Leadership_EdwardEllison.png" alt="" />
                         </div>
@@ -199,11 +208,12 @@
                         </label>
                     </div>
                     <a href="#header">Top &uarr;</a>
-                </div>
-            </article>
-            <div class="row">
-                <div class="green-divider"></div>
+                </article>
             </div>
+
+            <!-- <div class="row">
+                <div class="green-divider"></div>
+            </!-->
         </section>
         <section class="row">
 
