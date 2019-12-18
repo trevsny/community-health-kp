@@ -8,7 +8,7 @@
 }
 
 .a-li {
-    color: black;
+    color: #667083;
 }
 
 .align-ctr {
@@ -147,7 +147,7 @@
 
 .li-text {
     text-decoration: none;
-    font-size: .77rem;
+    font-size: .83rem;
     font-weight: 900;
     content: " > "
 }
