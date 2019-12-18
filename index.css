@@ -27,7 +27,7 @@
 .arrow-right {
     position: relative;
     right: 3%;
-    bottom: 20px;
+    bottom: 60px;
     z-index: 2;
     display: flex;
 }
@@ -54,6 +54,7 @@
 .blockq-div {
     display: flex;
     padding: 3%;
+    margin-top: 38%;
 }
 
 .dark-blue {
@@ -106,6 +107,19 @@
     width: 100%;
 }
 
+.info-graphic {
+    background-color: #003B71;
+    width: 100vw;
+}
+
+.info-graphic-mobile {
+    display: none;
+}
+
+.info-graphic-wrapper {
+    padding-top: 4%;
+}
+
 .intro {
     margin-top: 2%;
     margin-left: 7%;
@@ -155,6 +169,10 @@
     padding: 0;
 }
 
+.no-padding {
+    padding: 0;
+}
+
 .padding-btm {
     padding-bottom: 3%;
 }
@@ -198,7 +216,7 @@
 }
 
 .vertical-blockquote {
-    margin-top: 52%;
+    margin-top: 33%;
     line-height: 1.9;
     margin-left: 11%;
 }
@@ -225,14 +243,11 @@
     .disp-mobile {
         display: block;
     }
-    .mobile-disp-none {
-        display: none;
-    }
-
+    
     .first-col {
         display: none;
     }
-
+    
     .first-col-sm-box {
         display: none;
     }
@@ -240,17 +255,30 @@
     .full-border {
         border: none;
     }
+    
+    .info-graphic {
+        display: none;
+    }
+
+    .info-graphic-mobile {
+        display: flex;
+        width: 100%;
+    }
 
     .li-divider {
         display: none;
     }
-
+    
     .li-text { 
         border-top: 1px solid black;
     }
-
+    
     li:nth-last-child(1) {
         border-bottom: 1px solid black;
+    }
+    
+    .mobile-disp-none {
+        display: none;
     }
 
     .second-col-mobile {
