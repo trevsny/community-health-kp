@@ -19,6 +19,10 @@
     border: 1px solid black;
 }
 
+.aside-img {
+    padding-top: 10%;
+}
+
 .arrow-mobile {
     display: flex;
     justify-content: center;
@@ -58,6 +62,10 @@
     padding: 3%;
 }
 
+.blue-text {
+    color: #003B71;
+}
+
 .dark-blue {
     background-color: #003B71;
 }
@@ -79,6 +87,30 @@
     display: none;
 }
 
+.ensure-li::before {
+    content: "\2022";
+    color: #4A7628;
+    font-weight: bold;
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+.ensure-li {
+    display: inline-block;
+    padding: 10%;
+}
+
+.ensure-desktop-img { 
+    display: flex;
+    justify-content: center;
+}
+
+.ensure-ul-div {
+    display: flex;
+    align-items: center;
+}
+
 .exec-img {
     padding: 5% 2.5%;
     text-align: center;
@@ -93,6 +125,10 @@
 
 .exec-title {
     padding-top: 3%;
+}
+
+.full-width {
+    width: 100%;
 }
 
 .full-viewport-width {
@@ -165,7 +201,7 @@
 
 .li-text {
     content: " > ";
-    font-size: .85rem;
+    font-size: .92rem;
     font-weight: 900;
     text-decoration: none;
 }
@@ -240,6 +276,22 @@
     margin-left: 11%;
     padding-left: 15%;
     padding-right: 15%;
+}
+
+#wia-div {
+    background-color: #003B71;
+    color: white;
+    font-size: 1.4rem;
+    padding: 0px 4px;
+    position: relative;
+    top: 18px;
+    width: fit-content;
+}
+
+.work-action {
+    border-top: 4px dotted #003B71;
+    border-right: 4px dotted #003B71;
+    border-bottom: 4px dotted #003B71;
 }
 
 /* Phone */
@@ -390,6 +442,6 @@
     }
     
     .subHeader {
-        font-size: 2rem;
+        font-size: 2.2rem;
     }
 }
