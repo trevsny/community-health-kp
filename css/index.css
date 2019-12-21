@@ -92,6 +92,15 @@
     padding-top: 7%;
 }
 
+.desktop-logo {
+    position: relative;
+    right: 10px;
+}
+
+.desktop-logo-padding {
+    padding-top: 40px;
+}
+
 .disp-mobile {
     display: none;
 }
@@ -236,6 +245,11 @@
     padding-bottom: 3%;
 }
 
+.phone-logo {
+    max-width: 25%;
+    height: auto;
+}
+
 /* Get rid of gutters on all rows without having to add
 no-gutters class to every 'row' */
 .row {
@@ -295,7 +309,12 @@ no-gutters class to every 'row' */
     padding-left: 15%;
     padding-right: 15%;
 }
-
+.mobile-logo {
+    margin-bottom: -15%;
+    position: relative;
+    width: 25%;
+    height: auto;
+}
 
 /* Phone */
 @media (min-width: 767px) {
@@ -367,6 +386,9 @@ no-gutters class to every 'row' */
         border-bottom: 1px solid black;
     } */
 
+    
+   
+
     .mobile-padding-p {
         padding-top: 7%
     }
@@ -429,6 +451,12 @@ no-gutters class to every 'row' */
         font-size: 1.55rem;
     }
 
+    .mobile-logo {
+        margin-bottom: -15%;
+        position: relative;
+        right: 72px;
+    }
+
     .mobile-padding-p {
         padding-top: 7%
     }
@@ -464,6 +492,8 @@ no-gutters class to every 'row' */
         display: flex;
         justify-content: center;
     }
+
+    
 }
 /* Desktop */
 @media (min-width: 1024px) {
@@ -507,3 +537,21 @@ no-gutters class to every 'row' */
     }
 }
 
+@media (min-width: 0px) and (max-width: 500px) {
+    .mobile-logo {
+        right: 34px;
+        
+    }
+}
+
+@media (min-width: 501px) and (max-width: 600px) {
+    .mobile-logo {
+        right: 46px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 767px) {
+    .mobile-logo {
+        right: 57px;
+    }
+}
