@@ -68,6 +68,7 @@
 
 .blue-text {
     color: #003B71;
+    font-size: 1.7rem;
 }
 
 .dark-blue {
@@ -91,20 +92,6 @@
     display: none;
 }
 
-.ensure-li::before {
-    content: "\2022";
-    color: #4A7628;
-    font-weight: bold;
-    display: inline-block; /* Needed to add space between the bullet and the text */
-    width: 1em; /* Also needed for space (tweak if needed) */
-    margin-left: -1em; /* Also needed for space (tweak if needed) */
-}
-
-.ensure-li {
-    display: inline-block;
-    padding-bottom: 15%;
-}
-
 .ensure-desktop-img { 
     display: flex;
     justify-content: center;
@@ -125,6 +112,7 @@
     font-weight: bold;
     margin: 0;
     text-align: center;
+    font-size: 1rem;
 }
 
 .exec-title {
@@ -148,6 +136,7 @@
 .green-text {
     color: #4A7628;
     font-weight: bold;
+    font-size: 1.7rem;
 }
 
 .header-div {
@@ -166,7 +155,7 @@
 
 .info-graphic {
     background-color: #003B71;
-    width: 100vw;
+    width: 100%;
 }
 
 .info-graphic-mobile {
@@ -175,6 +164,10 @@
 
 .info-graphic-wrapper {
     padding-top: 4%;
+}
+
+.info-graphic-lightblue {
+    background-color: lightblue;
 }
 
 .intro {
@@ -214,6 +207,10 @@
     margin-bottom: 1rem;
 }
 
+.margin-btm-zero {
+    margin-bottom: 0;
+}
+
 .mobile-padding {
     padding-left: 5%;
 }
@@ -233,6 +230,13 @@
 
 .padding-btm {
     padding-bottom: 3%;
+}
+
+/* Get rid of gutters on all rows without having to add
+no-gutters class to every 'row' */
+.row {
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .second-column {
@@ -288,21 +292,6 @@
     padding-right: 15%;
 }
 
-#wia-div {
-    background-color: #003B71;
-    color: white;
-    font-size: 1.4rem;
-    padding: 0px 4px;
-    position: relative;
-    top: 18px;
-    width: fit-content;
-}
-
-.work-action {
-    border-top: 4px dotted #003B71;
-    border-right: 4px dotted #003B71;
-    border-bottom: 4px dotted #003B71;
-}
 
 /* Phone */
 @media (min-width: 767px) {
@@ -397,6 +386,10 @@
     display: block;
    }
 
+   .tablet-disp-none {
+       display: none;
+   }
+
    .article-mobile-padding {
         padding: 0;
     }
@@ -416,10 +409,6 @@
 
     .first-col-sm-box {
         display: none;
-    }
-    
-    .md-img-width {
-        width: 50%;
     }
 
     .mobile-padding-p {
@@ -448,6 +437,15 @@
     .article-mobile-padding {
         padding: 0;
     }
+
+    .tablet-img-80 {
+        width: 80%;
+    }
+
+    .tablet-img-ctr {
+        display: flex;
+        justify-content: center;
+    }
 }
 /* Desktop */
 @media (min-width: 1024px) {
@@ -474,6 +472,11 @@
         display: none;
     }
     
+    .special-arrow-right {
+        align-self: flex-start;
+        margin-top: 25%;
+    }
+
     .subHeader {
         font-size: 2.2rem;
     }
