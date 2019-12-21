@@ -397,6 +397,10 @@ no-gutters class to every 'row' */
         display: none;
     }
 
+    .mobile-text-center {
+        text-align: center;
+    }
+    
     .second-col-mobile {
         flex: 0 0 100%;
         max-width: 100%;
@@ -463,6 +467,10 @@ no-gutters class to every 'row' */
 
     .mobile-disp-none {
         display: none;
+    }
+
+    .mobile-text-center {
+        text-align: center;
     }
 
     .second-col-mobile {
