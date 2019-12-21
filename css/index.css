@@ -456,6 +456,10 @@ no-gutters class to every 'row' */
         padding: 0;
     }
 
+    .desktop-pad {
+        padding: 2% 0;
+    }
+
     .exec-img {
         display: none;
     }
@@ -473,8 +477,7 @@ no-gutters class to every 'row' */
     }
     
     .special-arrow-right {
-        align-self: flex-start;
-        margin-top: 25%;
+        align-self: center;
     }
 
     .subHeader {
