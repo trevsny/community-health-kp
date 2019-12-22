@@ -4,6 +4,12 @@
     top: 16px;
 }
 
+.build-community-img {
+    float: left; 
+    padding-right: 4%; 
+    padding-bottom: 2%;
+}
+
 .disp-phone {
     display: none;
 }
@@ -55,6 +61,11 @@
 /* Phone */
 @media (min-width: 0px) and (max-width: 767px) {
 
+    .build-community-img {
+        width: 100%;
+        padding: 0 !important;
+    }
+
     .disp-phone {
         display: block;
     }
@@ -90,7 +101,7 @@
 
     #wia-div {
         top: 36px;
-        left: 18px;
+        left: 11px;
     }
 
     .work-action {

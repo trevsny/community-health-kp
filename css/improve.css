@@ -3,13 +3,24 @@
     justify-content: center;
 }
 
+.desktop-fostering-img {
+    float: left;
+    padding-top: 6%;
+    padding-right: 2%;
+    padding-bottom: 1%;
+}
+
 .float-left-img {
     float: left;
     padding-right: 2%;
     padding-bottom: 1%;
 }
 
-
+.green-divider-thick {
+    background-color: #57A635;
+    height: 60px;
+    width: 100%;
+}
 
 /* Phone */
 @media (min-width: 0px) and (max-width: 767px) {
