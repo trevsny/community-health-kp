@@ -79,6 +79,8 @@
 
     .md-img-width {
         width: 75%;
+        max-width: 75%;
+        height: auto;
     }
 
     .mobile-article-body {
@@ -133,6 +135,8 @@
 
     .md-img-width {
         width: 70%;
+        max-width: 70%;
+        height: auto;
     }
 
     .mobile-article-body {
@@ -190,6 +194,8 @@
 @media (min-width: 0px) and (max-width: 500px) {
     .md-img-width {
         width: 100%;
+        max-width: 100%;
+        height: auto;
     }
 
 }
