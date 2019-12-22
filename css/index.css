@@ -30,10 +30,15 @@
 
 .arrow-right {
     position: relative;
-    right: 3%;
+    right: 6%;
     bottom: 60px;
     z-index: 2;
     display: flex;
+}
+
+.arrow-drop {
+    bottom: 0px;
+    top: 65px;
 }
 
 .arrow-width {
@@ -133,6 +138,11 @@
     padding-top: 3%;
 }
 
+.first-pull-q-arrow {
+    position: relative;
+    top: 105px;
+}
+
 .full-width {
     width: 100%;
 }
@@ -189,7 +199,7 @@
     margin-left: 15%;
     margin-right: 15%;
     padding-bottom: 2%;
-    padding-top: 5%;
+    padding: 4% 0;
 }
 
 #leadership_message {
@@ -269,7 +279,7 @@ no-gutters class to every 'row' */
 
 .section-header-ht {
     border-bottom: 1px solid black;
-    height: 100px;
+    height: 140px;
     padding-left: 4%;
 }
 
@@ -304,7 +314,7 @@ no-gutters class to every 'row' */
 }
 
 .vertical-blockquote {
-    line-height: 1.9;
+    line-height: 1.7;
     margin-top: 18%;
     margin-left: 11%;
     padding-left: 15%;
@@ -522,7 +532,7 @@ no-gutters class to every 'row' */
     }
 
     .first-col-sm-box {
-        height: 100px;
+        height: 140px;
     }
     
     .header-text {
