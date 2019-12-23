@@ -78,6 +78,7 @@
 .blue-text {
     color: #003B71;
     font-size: 1.7rem;
+    font-weight: bold;
     padding-top: 7%;
 }
 
@@ -195,10 +196,8 @@
 }
 
 .intro {
-    margin-top: 2%;
     margin-left: 15%;
     margin-right: 15%;
-    padding-bottom: 2%;
     padding: 4% 0;
 }
 
@@ -385,6 +384,11 @@ no-gutters class to every 'row' */
         width: 100%;
     }
 
+    .intro {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
     .li-divider {
         display: none;
     }
@@ -393,11 +397,9 @@ no-gutters class to every 'row' */
         border-top: 1px solid black;
     }
     
-    /* li:nth-last-child(1) {
-        border-bottom: 1px solid black;
-    } */
-
-    
+    .mobile-blockquote-text {
+        font-size: 1rem;
+    }
    
 
     .mobile-padding-p {

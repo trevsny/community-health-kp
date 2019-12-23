@@ -84,13 +84,8 @@
     }
 
     .mobile-article-body {
-        padding: 3% 7% 3% 8%;
+        padding: 3% 5% 3% 5%;
     }
-    /* keep this one below .mobile-article-body */
-    /* .margin-t-p {
-        margin: 0;
-        padding-top: 0;
-    } */
 
     .ensure-li {
         padding: 0;

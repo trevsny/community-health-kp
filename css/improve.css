@@ -1,6 +1,6 @@
-.center {
-    display: flex;
-    justify-content: center;
+.author-quote-divider {
+    background-color: white;
+    padding: 3% 5%;
 }
 
 .desktop-fostering-img {
@@ -22,8 +22,19 @@
     width: 100%;
 }
 
+.quote-overlap {
+    position: relative;
+    top: 85px;
+    z-index: 2;
+}
+
 /* Phone */
 @media (min-width: 0px) and (max-width: 767px) {
+
+    .center {
+        display: flex;
+        justify-content: center;
+    }
 
     .mobile-no-padding {
         padding: 0;
@@ -32,6 +43,11 @@
 
 /* Tablet */
 @media (min-width: 768px) and (max-width: 1023px) {
+
+    .center {
+        display: flex;
+        justify-content: center;
+    }
 
     .mobile-no-padding {
         padding: 0;
