@@ -102,6 +102,7 @@
 .desktop-logo {
     position: relative;
     right: 10px;
+    width: 30%;
 }
 
 .desktop-logo-padding {
