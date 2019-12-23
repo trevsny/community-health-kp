@@ -59,6 +59,10 @@
     padding-bottom: 2%;
 }
 
+.wia-text {
+    margin-bottom: 0;
+}
+
 /* Phone */
 @media (min-width: 0px) and (max-width: 767px) {
 
