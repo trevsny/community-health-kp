@@ -22,6 +22,11 @@
     width: 100%;
 }
 
+.improve-img2 {
+    float: right;
+    padding-left: 10%;
+}
+
 .quote-overlap {
     position: relative;
     top: 85px;
@@ -65,4 +70,11 @@
         width: 100%;
     }
 
+}
+
+@media (min-width: 1600px) {
+    .improve-img2 {
+        position: relative;
+        bottom: 75px;
+    }
 }
