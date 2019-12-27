@@ -1,0 +1,219 @@
+
+.arrow-position {
+    position: relative;
+    top: 16px;
+}
+
+.build-community-img {
+    float: left; 
+    padding-right: 4%; 
+    padding-bottom: 2%;
+}
+
+.disp-phone {
+    display: none;
+}
+
+.ensure-li::before {
+    content: "\2022";
+    color: #4A7628;
+    font-weight: bold;
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1.3em; /* Also needed for space (tweak if needed) */
+}
+
+.ensure-li {
+    display: inline-block;
+    padding-bottom: 15%;
+}
+
+.margin-t-p {
+    margin-top: 3rem;
+}
+
+.no-margin-top {
+    margin-top: 0;
+}
+
+.padding-ul {
+    padding-left: 0;
+    padding-right: 5%;
+    padding-top: 7%;
+    margin: 0;
+}
+
+.pad-img-fl-left {
+    padding-right: 3%;
+    padding-bottom: 1%;
+    float: left;
+}
+
+.wia-div {
+    background-color: #003B71;
+    color: white;
+    font-size: 1.8rem;
+    padding: 0px 4px;
+    position: relative;
+    top: 18px;
+    width: fit-content;
+}
+
+.work-action {
+    border-top: 4px dotted #003B71;
+    border-right: 4px dotted #003B71;
+    border-bottom: 4px dotted #003B71;
+    padding-bottom: 2%;
+}
+
+.wia-text {
+    margin-bottom: 0;
+}
+
+/* Phone */
+@media (min-width: 0px) and (max-width: 767px) {
+
+    .build-community-img {
+        width: 100%;
+        padding: 0 !important;
+    }
+
+    .disp-phone {
+        display: block;
+    }
+
+    .ensure-li::before {
+        padding-left: 1%;
+    }
+
+    .full-col-12 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .md-img-width {
+        width: 75%;
+        max-width: 75%;
+        height: auto;
+    }
+
+    .mobile-article-body {
+        padding: 3% 5% 3% 5%;
+    }
+
+    .ensure-li {
+        padding: 0;
+        padding-bottom: 5%;
+    }
+
+
+    .wia-div {
+        top: 36px;
+        left: 11px;
+    }
+
+    .work-action {
+        margin: 3%;
+    }
+
+    .wrap-ensure-ul-div {
+        width: 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .wrap-ensure-div {
+        display: flex;
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        padding-bottom: 0;
+    }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    .ensure-li::before {
+        padding-left: 1%;
+    }
+    
+    .ensure-li {
+        padding: 0;
+        padding-bottom: 5%;
+    }
+
+    .md-img-width {
+        width: 70%;
+        max-width: 70%;
+        height: auto;
+    }
+
+    .mobile-article-body {
+        padding: 3% 7% 3% 8%;
+    }
+
+    .no-pad-top {
+        padding-top: 0;
+    }
+
+    .tablet-display {
+        display: block;
+    }
+
+    .wia-div {
+        top: 44px;
+        left: 24px;
+    }
+
+    .work-action {
+        margin: 3%;
+    }
+
+    .wrap-ensure-div {
+        display: flex;
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+    }
+
+    .wrap-ensure-ul-div {
+        width: 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding-bottom: 0;
+    }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+
+    .desktop-weaving-pad {
+        padding: 4% 0;
+    }
+
+    .desktop-addressing-pad {
+        padding: 2% 0;
+    }
+
+    .marg-t-p {
+        margin-top: 5%;
+    }
+}
+
+/* Small phone */
+@media (min-width: 0px) and (max-width: 500px) {
+    .md-img-width {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+
+}
+
+/* Special */
+
+@media (min-width: 1024px) and (max-width: 1051px) {
+    .special-padding {
+        padding-left: 70%;
+    }
+}
